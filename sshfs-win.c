@@ -10,8 +10,8 @@
     "-orellinks",                       \
     "-ofstypename=SSHFS",               \
     "-oUserKnownHostsFile=/dev/null",   \
-    "-oumask=770",                      \
-    "-ocreate_umask=770",               \
+    "-oumask=007",                      \
+    "-ocreate_umask=007",               \
     "-oStrictHostKeyChecking=no"
 
 #if 0
